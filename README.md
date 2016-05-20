@@ -1,6 +1,6 @@
 #Architektura serwisów internetowych 2015/16
 
-### Zespół: Pawel Cendrowski, Jacek Godziuk, Michał Tkaczyk, Karol Tymiński
+### Zespół: Paweł Cendrowski, Jacek Godziuk, Michał Tkaczyk, Karol Tymiński
 
 <b>1. Egzamin:</b>
  - [] []()
