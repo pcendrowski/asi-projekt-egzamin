@@ -6,7 +6,7 @@
 
 <b>1. Egzamin:</b>
  - [x] [Link do repozytorium](https://github.com/pcendrowski/asi-projekt-egzamin)
- - [] [Link do wdrożonej na zewnętrznym serwerze]()
+ - [x] [Link do wdrożonej na zewnętrznym serwerze aplikacji](https://wykladowcyzespolowy.herokuapp.com/)
  
 | Wersja Ruby   | Wersja Rails   | Baza danych |
 |------------|---------|-------------|
