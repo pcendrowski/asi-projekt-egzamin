@@ -1,0 +1,18 @@
+<tr>
+<td>
+  <%= lesson.name %>
+</td>
+ 
+<td>
+  <%= lesson.code %>
+</td>
+ <% if user_signed_in? %>
+<td>
+  <%= link_to 'Usuń przedmiot', [lesson.teacher, lesson],
+               method: :delete,
+               data: { confirm: 'Jesteś pewien?' } %>
+</td>
+</tr>
+</tr><% else  %>
+</tr>
+<% end %>

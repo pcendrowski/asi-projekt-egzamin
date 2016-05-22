@@ -7,6 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <%= render 'layouts/navbar' %>
+  
+  
+<script>
+  <% if params[:notice].present? %>
+    alert("dasdasdasdas");
+  <% end %>
+</script>
+
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 
 <%= yield %>
 

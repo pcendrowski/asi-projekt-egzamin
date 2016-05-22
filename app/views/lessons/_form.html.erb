@@ -1,0 +1,16 @@
+<%= form_for([@teacher, @teacher.lessons.build]) do |f| %>
+<% if user_signed_in? %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :code %><br>
+    <%= f.text_field :code %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+  <% else  %>
+  <% end %>
+<% end %>
