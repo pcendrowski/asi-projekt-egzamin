@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get 'welcome/index'
 
   resources :teachers
+=======
+>>>>>>> 6b412ea066fd661e73e47d84ec546cb2dbd05f87
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -56,5 +59,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+<<<<<<< HEAD
   root :to => "welcome#index"
+=======
+>>>>>>> 6b412ea066fd661e73e47d84ec546cb2dbd05f87
 end

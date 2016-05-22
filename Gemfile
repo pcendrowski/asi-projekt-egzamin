@@ -32,7 +32,10 @@ gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'master'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+<<<<<<< HEAD
   gem 'sqlite3'
+=======
+>>>>>>> 6b412ea066fd661e73e47d84ec546cb2dbd05f87
 end
 
 group :development do
@@ -43,8 +46,11 @@ group :development do
   gem 'spring'
 end
 
+<<<<<<< HEAD
 group :production do
   gem 'pg', '0.18.2'
   gem 'rails_12factor', '0.0.3'
 end
 
+=======
+>>>>>>> 6b412ea066fd661e73e47d84ec546cb2dbd05f87
