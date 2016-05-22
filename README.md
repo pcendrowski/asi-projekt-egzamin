@@ -1,24 +1,18 @@
+#Architektura serwisów internetowych 2015/16
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+##Projekt zostanie ukończony do dnia: 26.05.2016
 
+### Zespół: Paweł Cendrowski, Jacek Godziuk, Michał Tkaczyk, Karol Tymiński
 
-Welcome to your Rails project on Cloud9 IDE!
+<b>1. Egzamin:</b>
+ - [x] [Link do repozytorium](https://github.com/pcendrowski/asi-projekt-egzamin)
+ - [] [Link do wdrożonej na zewnętrznym serwerze]()
+ 
+| Wersja Ruby   | Wersja Rails   | Baza danych |
+|------------|---------|-------------|
+|    2.3.0   | 5.0.0.beta2  | PostgreSQL  |
 
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://projekt-asi-emkate.c9users.io/).
-
-Happy coding!
-The Cloud9 IDE team
+- Opis aplikacji: 
+Baza wykładowców wraz z przedmiotami przez nich prowadzonymi
 
 
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
