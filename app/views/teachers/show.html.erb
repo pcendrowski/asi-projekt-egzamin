@@ -1,12 +1,12 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Imię:</strong>
   <%= @teacher.name %>
 </p>
 
 <p>
-  <strong>Surname:</strong>
+  <strong>Nazwisko:</strong>
   <%= @teacher.surname %>
 </p>
 
@@ -37,5 +37,5 @@
 <% else  %>
   <% end %>
 
-<%= link_to 'Edit', edit_teacher_path(@teacher) %> |
-<%= link_to 'Back', teachers_path %>
+<%= link_to 'Edytuj', edit_teacher_path(@teacher) %> |
+<%= link_to 'Wróć', teachers_path %>
