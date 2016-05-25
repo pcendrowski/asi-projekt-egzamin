@@ -2,7 +2,7 @@
 
 ##Projekt zostanie ukończony do dnia: 26.05.2016
 
-### Zespół: Paweł Cendrowski, Jacek Godziuk, Michał Tkaczyk, Karol Tymiński
+### Zespół: Paweł Cendrowski, Jacek Godziuk, Michał Tkaczyk, Karol Tymiński, Paweł Wilamowski
 
 <b>1. Egzamin:</b>
  - [x] [Link do repozytorium](https://github.com/pcendrowski/asi-projekt-egzamin)
