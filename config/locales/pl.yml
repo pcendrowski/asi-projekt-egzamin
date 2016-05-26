@@ -1,6 +1,9 @@
 ---
 pl:
   activerecord:
+    models:
+      lesson: przedmiot
+      teacher: nauczyciela
     errors:
       messages:
         record_invalid: 'Negatywne sprawdzenie poprawności: %{errors}'
@@ -238,3 +241,73 @@ pl:
       long: "%B %d, %Y %H:%M"
       short: "%d %b %H:%M"
     pm: po południu
+    
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: "Wyślij ponownie mail aktywacyjny"
+    mailer:
+      confirmation_instructions:
+        action: "Potwierdzenie konta"
+        greeting: "Witaj %{recipient}!"
+        instruction: "Możesz potwierdzić e-mail klikając poniższy link:"
+      reset_password_instructions:
+        action: "Zmień moje hasło"
+        greeting: "Siemanko %{recipient}!"
+        instruction: "Ktoś chce zmienić twoje hasło. Można tego dokonać klikając poniższy link."
+        instruction_2: "Jeśli to nie ty, zignoruj tego maila."
+        instruction_3: "Twoje hasło nie zostanie zmienione dopóki nie klikniesz linku i nie ustalisz nowego."
+      unlock_instructions:
+        action: "Odblokuj moje konto"
+        greeting: "Siemanko %{recipient}!"
+        instruction: "Użyj poniższego linku, aby odblokować konto:"
+        message: "Twoje konto zostało zablokowane z powodu zbyt dużej ilości logowań zakończonych niepowodzeniem."
+    passwords:
+      link: 'Zapomniałeś hasła?'
+      new:
+        forgot_your_password: "Zapomniałeś hasła?"
+        send_me_reset_password_instructions: "Wyślij instrukcje zmiany hasła"
+      edit:
+        change_your_password: "Zmień hasło"
+        new_password: "Nowe hasło"
+        confirm_new_password: "Potwierdź nowe hasło"
+        change_my_password: "Zmień hasło"
+    registrations:
+      edit:
+        are_you_sure: "Jesteś pewien?"
+        cancel_my_account: "Usuń moje konto"
+        leave_blank_if_you_don_t_want_to_change_it: "pozostaw puste jeśli nie chcesz edytować"
+        currently_waiting_confirmation_for_email: "Oczekuję na potwierdzenie: %{email}"
+        title: "Edytuj %{resource}"
+        we_need_your_current_password_to_confirm_your_changes: "potrzebne aktualne hasło do potwierdzenia zmian"
+        update: "Aktualizuj"
+        unhappy: "Niezadowolony"
+      new:
+        sign_up: "Zarejestruj się"
+    sessions:
+      new:
+        sign_in: "Zaloguj się"
+    shared:
+      links:
+        back: "Wróć"
+        didn_t_receive_confirmation_instructions: "Nie otrzymałeś potwierdzenia?"
+        didn_t_receive_unlock_instructions: "Nie otrzymałeś instrukcji odblokowania?"
+        forgot_your_password: "Zapomniałeś hasła?"
+        sign_in: "Zaloguj się"
+        sign_in_with_provider: "Zaloguj korzystając z %{provider}"
+        sign_up: "Zarejestruj się"
+    unlocks:
+      new:
+        resend_unlock_instructions: "Prześlij ponownie instrukcje odblokowania"
+  activerecord:
+    models:
+      user: "Użytkownik"
+    attributes:
+      user:
+        email: "Email"
+        password: "Hasło"
+        password_confirmation: "Potwierdzenie hasła"
+        current_password: "Aktualne hasło"
+        remember_me: "Zapamiętaj mnie"
+        sign_up: "Zarejestruj się"
+        forgot_your_password: "Zapomniałeś hasła?"
