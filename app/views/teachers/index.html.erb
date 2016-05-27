@@ -10,6 +10,7 @@
 
 
  <% if user_signed_in? %>
+ <%= will_paginate @teachers %>
 <table class="table table-responsive table-hover">
   <thead>
     <tr>
@@ -31,9 +32,9 @@
     <% end %>
   </tbody>
 </table>
-
+<%= will_paginate @teachers %>
 <% else  %>
-
+<%= will_paginate @teachers %>
 <table class="table table-responsive table-hover">
   <thead>
     <tr>
@@ -53,6 +54,7 @@
     <% end %>
   </tbody>
 </table>
+<%= will_paginate @teachers %>
 <% end %>
 
 <br>
