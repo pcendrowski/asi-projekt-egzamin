@@ -17,6 +17,8 @@ gem 'bcrypt', '3.1.10'
 gem 'cancancan', '~> 1.13', '>= 1.13.1'
 #Version on rubygems not supporting rails 5.0! Must pull from git repo!
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
+gem 'will_paginate', '~> 3.0'
+gem 'devise-i18n'
 
 group :development, :test do
   gem 'byebug'
