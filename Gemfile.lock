@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/plataformatec/devise.git
-  revision: cbbe932ee22947fb7fc741a4da3e6783091c88b0
+  revision: bcdd54cc5ebd3413eeb3d17e3b634e8ace0d09f3
   specs:
     devise (4.1.0)
       bcrypt (~> 3.0)
@@ -11,10 +11,10 @@ GIT
 
 GIT
   remote: git://github.com/svenfuchs/rails-i18n.git
-  revision: 9eb4016d4ca6f84b39071ffc66d7dde1206580b5
+  revision: 102c2e79f599c7429e8fe5c2c6185c80b2f3d92e
   branch: master
   specs:
-    rails-i18n (5.0.0.beta3)
+    rails-i18n (5.0.0.beta4)
       i18n (~> 0.7)
       railties (~> 5.0.0.beta1)
 

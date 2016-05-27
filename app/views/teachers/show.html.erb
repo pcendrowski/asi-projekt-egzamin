@@ -1,16 +1,9 @@
-<p id="notice"><%= notice %></p>
+<div style="padding-left:50px; padding-right:50px">
 
-<p>
-  <strong>Imię:</strong>
-  <%= @teacher.name %>
-</p>
 
-<p>
-  <strong>Nazwisko:</strong>
-  <%= @teacher.surname %>
-</p>
 
-<h2>Przedmioty:</h2>
+
+<h2>Przedmioty prowadzone przez: <%= @teacher.name %> <%= @teacher.surname %></h2>
 <table class="table table-responsive table-hover">
   <thead>
     <tr>
@@ -32,10 +25,12 @@
 </table>
 
 <% if user_signed_in? %>
-<h2>Dodaj przedmiot:</h2>
+
 <%= render 'lessons/form' %>
 <% else  %>
   <% end %>
-
+<div style="padding-left:50px;padding-top:20px; ">
 <%= link_to 'Edytuj', edit_teacher_path(@teacher) %> |
 <%= link_to 'Wróć', teachers_path %>
+</div>
+</div>
